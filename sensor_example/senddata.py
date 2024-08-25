@@ -54,7 +54,7 @@ def wait_for_internet_connection():
     while True:
         try:
             # ping url to check for connection!
-            response = urequests.get("http://192.168.137.39:8080")
+            response = urequests.get("http://192.168.0.1:8080")
             print ("connected")
             break
         except:
@@ -112,6 +112,7 @@ def send_data():
                 print (e)
                 machine.reset()
                 machine.lightsleep(1000)
+            # use lightsleep whenever possible
             machine.lightsleep(1000)
         except Exception as e:
             print (e)

@@ -9,3 +9,7 @@ Command to write:
 
 Under Windows to find which COM Port the ESP8266 use, use the device manager. 
 Under Ports something like USB-SERIAL CH340(COMX)
+
+For easy visualation of the data i recommend to use [Thingsboard](https://thingsboard.io/docs/user-guide/install/windows/)
+Its pretty easy to setup and even more to show graphs.
+
